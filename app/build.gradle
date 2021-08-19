@@ -40,6 +40,13 @@ dependencies {
     def moshi_version = "1.9.3"
     def retrofit_version = "2.9.0"
 
+    def lifecycle_version = "2.4.0-alpha02"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    // Live Data
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
     //Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
 
